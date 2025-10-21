@@ -1,21 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import Home from './Components/Home'
+import Sidebar from './Components/sidebar'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-
-
- <h1 class="text-3xl text-blue-500 font-bold underline">
-  Hello world!
-</h1>
-
-
-    </>
+    <div className="App">
+      <Sidebar />
+      <div className='grow ml-16 md:ml-24 h-screen lg-h-screen bg-white-100 text-gray-900'>
+          <Home />
+      </div>
+    </div>
   )
 }
 
