@@ -1,10 +1,12 @@
 
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
 import Home from './Components/Home'
 import WelcomePage from './Components/WelcomePage'
 import ThemeContextProvider from './Context/ThemeContextProvider'
-import Sidebar from './Components/Sidebar'
+import Sidebar from './Components/sidebar'
+
 
 
 function App() {
