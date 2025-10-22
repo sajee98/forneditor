@@ -51,12 +51,13 @@ const Home = () => {
             <span>Try</span>
           </button>
         </div>
+        
       </div>
 
       <div className="flex flex-col w-full max-w-[1350px]  gap-8 mt-1 mb-10 shadow-lg p-0">
         {/* Banner  */}
         <div
-          className="flex flex-col lg:flex-row shadow:xl items-stretch justify-between w-full max-w-[1260px] h-auto lg:h-[320px] rounded-[24px] bg-cover bg-center overflow-hidden"
+          className="flex flex-col lg:flex-row shadow:2xl items-stretch justify-between w-full max-w-[1260px] h-auto lg:h-[320px] rounded-[24px] bg-cover bg-center overflow-hidden"
           style={{
             backgroundImage: `url(${linesImg})`,
             backgroundBlendMode: "normal",
@@ -84,7 +85,7 @@ const Home = () => {
 <div className="hidden lg:flex flex-1 items-center justify-center px-0 relative">
   <div className="absolute bottom-[-25px] left-10 w-[240px] h-[240px] rounded-[24px] overflow-hidden shadow-lg">
     <img
-      src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=500&q=60"
+      src="https://plus.unsplash.com/premium_photo-1684179641331-e89c6320b6a9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFya2V0aW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
       alt="Ocean view"
       className="w-full h-full object-cover"
     />
@@ -92,7 +93,7 @@ const Home = () => {
 
   <div className="absolute top-[-20px] right-[-2px] w-[260px] h-[203px] rounded-[24px] overflow-hidden shadow-lg">
     <img
-      src="https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=500&q=60"
+      src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFya2V0aW5nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
       alt="Mountains"
       className="w-full h-full object-cover"
     />
@@ -100,7 +101,7 @@ const Home = () => {
 
   <div className="absolute bottom-[-60px] left-75 w-[280px] h-[203px] rounded-[24px] overflow-hidden shadow-lg">
     <img
-      src="https://images.unsplash.com/photo-1619070849223-c02f450670ed?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZSUyMGltYWdlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
+      src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500"
       alt="City Lights"
       className="w-full h-full object-cover"
     />
@@ -108,7 +109,7 @@ const Home = () => {
 
   <div className="absolute bottom-[-80px] right-[-15px] w-[240px] h-[203px] rounded-[24px] overflow-hidden shadow-lg">
     <img
-      src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=500&q=60"
+      src="https://images.unsplash.com/flagged/photo-1556514767-5c270b96a005?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fG1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500"
       alt="Nature path"
       className="w-full h-full object-cover"
     />
@@ -116,7 +117,7 @@ const Home = () => {
 
   <div className="absolute left-106 -translate-x-1/2 -translate-y-1/2 w-[260px] h-[203px] rounded-[24px] overflow-hidden shadow-lg">
     <img
-      src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=500&q=60"
+      src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIxfHxtYXJrZXRpbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500"
       alt="Sky clouds"
       className="w-full h-full object-cover"
     />
@@ -127,7 +128,7 @@ const Home = () => {
 
         {/* for you card section */}
         <div className="w-full max-w-[1200px] sm:m-2  mx-auto p-8">
-          <div className="flex justify-between items-center mb-4">
+          <div className="flex justify-between items-center mb-3">
             <div className="flex items-center space-x-2">
               <HiStar className="w-4 h-4 text-gray-400" />
               <h1 className="font-inter text-gray-400 font-light text-base">

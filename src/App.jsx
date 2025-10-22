@@ -1,17 +1,27 @@
 
 import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Components/Home'
+import WelcomePage from './Components/WelcomePage'
 import Sidebar from './Components/sidebar'
+import ThemeContextProvider from './Context/ThemeContextProvider'
 
 function App() {
-
   return (
-    <div className="App">
-      <Sidebar />
-      <div className='grow ml-16 md:ml-24 h-screen lg-h-screen bg-white-100 text-gray-900'>
-          <Home />
+    <ThemeContextProvider>
+    <Router>
+      <div className="App flex">
+        <Sidebar />
+
+        <div className='grow ml-24 md:ml-20 h-screen lg:h-screen  bg-white-100'>
+          <Routes>
+            <Route path="/" element={<WelcomePage />} />
+            <Route path="/home" element={<Home />} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </Router>
+      </ThemeContextProvider>
   )
 }
 
