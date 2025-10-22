@@ -1,4 +1,4 @@
-import Slogo from "../assets/SLogo.jpg";
+import Slogo from "../assets/Slogo.jpg";
 const WelcomePage = () => {
   return (
     <div className="max-w-[1180px] w-full md:h-[580px] h-auto rounded-[24px] opacity-100 flex flex-col md:flex-row overflow-hidden mx-auto mt-8 p-4 md:p-8">
